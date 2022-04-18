@@ -57,6 +57,7 @@ Certificate:
 ```
 ### Configure Ingress Rule
 Few more annotations added to our Ingress Rule since our demo app:
+
 | Annotation  |Value   |  Comment |  
 |---|---|---|
 |  nginx.ingress.kubernetes.io/proxy-ssl-secret |kube-system/osm-nginx-proxy-cert|   Nginx will use this proxy cert to communicate with upstream server|   
